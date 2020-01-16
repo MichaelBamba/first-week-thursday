@@ -1,4 +1,8 @@
-FavoritePokemon = "Crobat, squirtle, pikachu, chikorita, lugia, sylveon"
+FavoritePokemon = "crobat, squirtle, pikachu, chikorita, lugia, sylveon"
 
-
-print (str.upper(FavoritePokemon))
+reverse = []
+index = len(FavoritePokemon)
+while index > 0 :
+    reverse =+ FavoritePokemon [index -1 ]
+    index= index - 1
+print reverse
