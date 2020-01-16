@@ -1,7 +1,9 @@
 power_rangers = ["Jason", "Trini", "Zack", "Billy", "Kim", "Tommy"]
 
+print(power_rangers)
+
 if "Tommy" in power_rangers:
-    print ("Tommy is here")
+    power_rangers.remove("Tommy")
+    print( power_rangers)
 else:
     print("Tommy is gone")
-    
